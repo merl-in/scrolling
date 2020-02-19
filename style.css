@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: White;
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  width:100%;
+  text-align: center;
+}
+.border {
+  background-color: #41BAC1;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing:10px;
+}
+
+.cd-logo, .kitchen, .ingredients, .mixer, .oven, .cake {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+
+  background-attachment: fixed;
+}
+
+.cd-logo {
+  background-image: url("images/CoderDojo.png");
+  background-size: auto;
+}
+
+.kitchen {
+  background-image: url("images/utensils.jpg");
+  
+}
+.ingredients {
+  background-image: url("images/ingredients.jpg");
+}
+.mixer {
+  background-image: url("images/mixer.jpg");
+}
+.oven {
+  background-image: url("images/oven.jpg")
+}
+.cake{
+  background-image: url("images/rosecake.jpg");
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.textSection {
+  background-color:#642580;
+  padding:50px 80px;
+}
+a {
+  text-decoration: none;
+  color: pink;
+}
